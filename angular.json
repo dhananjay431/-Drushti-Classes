@@ -25,12 +25,34 @@
             "aot": false,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/img"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "plugins/lib/bootstrap/css/bootstrap.min.css" ,
+              "plugins/lib/font-awesome/css/font-awesome.min.css" ,
+              "plugins/lib/animate/animate.min.css" ,
+              "plugins/lib/ionicons/css/ionicons.min.css" ,
+              "plugins/lib/owlcarousel/assets/owl.carousel.min.css" ,
+              "plugins/lib/lightbox/css/lightbox.min.css" ,
+              "plugins/css/style.css"
             ],
-            "scripts": []
+            "scripts": [
+              "plugins/lib/jquery/jquery.min.js",
+              "plugins/lib/jquery/jquery-migrate.min.js",
+              "plugins/lib/bootstrap/js/bootstrap.bundle.min.js",
+              "plugins/lib/easing/easing.min.js",
+              "plugins/lib/mobile-nav/mobile-nav.js",
+              "plugins/lib/wow/wow.min.js",
+              "plugins/lib/waypoints/waypoints.min.js",
+              "plugins/lib/counterup/counterup.min.js",
+              "plugins/lib/owlcarousel/owl.carousel.min.js",
+              "plugins/lib/isotope/isotope.pkgd.min.js",
+              "plugins/lib/lightbox/js/lightbox.min.js",
+              "plugins/contactform/contactform.js",
+              "plugins/js/main.js"
+            ]
           },
           "configurations": {
             "production": {
